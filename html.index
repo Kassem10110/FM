@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>For Fatma ❤</title>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Dancing+Script:wght@700&family=Lobster&family=Great+Vibes&family=Satisfy&family=Caveat:wght@700&family=Shadows+Into+Light&family=Permanent+Marker&family=Cinzel:wght@700&family=Playfair+Display:ital,wght@1,700&family=Bungee&family=Righteous&family=Orbitron:wght@700&family=Indie+Flower&family=Monoton&family=Aref+Ruqaa:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff1f4;--card:#fff;--ink:#4a1d2e;--pink:#e63a6e;--soft:#ffd6e1;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1a0b14;--card:#2a1220;--ink:#ffe3ec;--pink:#ff5c8a;--soft:#4a1d33;color-scheme:dark}}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,serif;overflow-x:hidden;line-height:1.6}
+.hero{min-height:92vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;position:relative}
+#title{font-size:clamp(2.2rem,11vw,5.5rem);color:var(--pink);min-height:1.4em;line-height:1.2;text-shadow:0 4px 24px rgba(230,58,110,.35)}
+#title span{display:inline-block;animation:pop .4s both}
+@keyframes pop{from{transform:translateY(-30px) scale(.3) rotate(-20deg);opacity:0}to{transform:none;opacity:1}}
+#fname{font:14px monospace;opacity:.7;margin-top:14px;letter-spacing:2px}
+.fonts{text-align:center;padding:50px 16px 30px;max-width:900px;margin:0 auto}#fl .r{min-height:36vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;overflow-wrap:anywhere}#fl .r .tx{font-size:clamp(1.8rem,9vw,3.6rem);color:var(--pink);line-height:1.25;min-height:1.3em;text-shadow:0 4px 24px rgba(230,58,110,.35)}#fl .r .tx span{display:inline-block;animation:pop .4s both}#fl .r small{font:13px monospace;opacity:.6;letter-spacing:2px}
+.sub{margin-top:26px;font-style:italic;opacity:.8;animation:bob 2s infinite}
+@keyframes bob{50%{transform:translateY(8px)}}
+.h{position:fixed;bottom:-40px;pointer-events:none;animation:up linear forwards;z-index:5}
+@keyframes up{to{transform:translateY(-115vh) rotate(40deg);opacity:0}}
+section{max-width:760px;margin:0 auto;padding:40px 20px}
+h2{text-align:center;font-family:'Pacifico',cursive;color:var(--pink);font-weight:400}
+.rv{opacity:0;transform:translateY(40px);transition:1s}.rv.on{opacity:1;transform:none}
+.note{background:#fffdf3 repeating-linear-gradient(transparent 0 33px,#9ab8d8 33px 34px);color:#2b2b55;border-radius:6px;padding:28px 22px 20px;transform:rotate(-1.5deg);box-shadow:0 12px 40px rgba(0,0,0,.25);direction:rtl;text-align:right;font-family:'Aref Ruqaa',serif;font-size:1.25rem;line-height:34px;position:relative;border-top:14px dotted #888}
+.note p{margin:0 0 34px;opacity:0;transform:translateX(30px);transition:.8s}.note.on p{opacity:1;transform:none}
+.note.on p:nth-child(2){transition-delay:.7s}.note.on p:nth-child(3){transition-delay:1.4s}.note.on p:nth-child(4){transition-delay:2.1s}.note.on p:nth-child(5){transition-delay:2.8s}
+.note s{text-decoration-color:red;text-decoration-thickness:3px}
+.en{direction:ltr;text-align:left;font-family:'Caveat',cursive;font-size:1.5rem}
+.arr{color:#d22;font-size:1.3rem;display:inline-block;animation:wig 1s infinite}@keyframes wig{50%{transform:translateY(5px) rotate(8deg)}}
+.card{background:var(--card);border-radius:20px;overflow:hidden;box-shadow:0 10px 35px rgba(230,58,110,.2);margin:30px 0;display:grid;grid-template-columns:1fr 1fr}
+.card:nth-of-type(even) img{order:2}
+.card img{width:100%;height:100%;min-height:320px;object-fit:cover;transition:transform .6s}.card:hover img{transform:scale(1.06) rotate(1deg)}
+.card div{padding:22px;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.card b{color:var(--pink);font-family:'Pacifico',cursive;font-weight:400;font-size:1.3rem}
+@media(max-width:600px){.card{grid-template-columns:1fr}.card:nth-of-type(even) img{order:0}}
+.toon{position:relative;max-width:420px;margin:20px auto;cursor:pointer;perspective:800px;-webkit-tap-highlight-color:transparent}
